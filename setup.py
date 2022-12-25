@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'talker = test_pubsub.publisher:main',
+            'listner = test_pubsub.subscriber:main',
         ],
     },
 )
